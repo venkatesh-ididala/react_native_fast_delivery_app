@@ -33,7 +33,16 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "react_native_foodordering_app",
+          "organization": "aurobank"
+        }
+      ],
+      "sentry-expo"
     ],
     "experiments": {
       "typedRoutes": true
